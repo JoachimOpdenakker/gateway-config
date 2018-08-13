@@ -1,0 +1,11 @@
+@	IN	SOA	ns.lan.site.	root.lan.site. (
+			2018081101	; Serial
+			3D		; Refresh
+			1D		; Retry
+			4W		; Expire
+			3D		; Negative Cache TTL
+);
+
+@	IN	NS	ns.lan.site.
+@	IN	A	10.0.1.1
+www	IN	A	10.0.1.1
