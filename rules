@@ -1,0 +1,17 @@
+#
+# Shorewall version 4 - Rules File
+#
+# For information on the settings in this file, type "man shorewall-rules"
+#
+# The manpage is also online at
+# http://www.shorewall.net/manpages/shorewall-rules.html
+#
+######################################################################################################################################################################################################
+#ACTION		SOURCE		DEST		PROTO	DEST	SOURCE		ORIGINAL	RATE		USER/	MARK	CONNLIMIT	TIME		HEADERS		SWITCH		HELPER
+#							PORT	PORT(S)		DEST		LIMIT		GROUP
+DROP		priv		all		tcp	6881:6889
+DROP		priv		all		udp	6881:6889
+DROP		priv		all		tcp	6969
+DROP		priv		all		udp	6969
+DROP		priv		all		tcp 	1337
+DROP		priv		all		udp	1337	
